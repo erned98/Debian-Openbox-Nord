@@ -1,0 +1,10 @@
+# GIMP action-history
+
+(history-item "edit-fill-fg" 3)
+(history-item "file-open" 3)
+(history-item "file-export-as" 1)
+(history-item "dialogs-preferences" 0)
+(history-item "file-export" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

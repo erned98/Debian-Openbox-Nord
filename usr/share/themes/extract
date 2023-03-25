@@ -1,1 +1,6 @@
+#! /bin/bash
 
+sudo tar -xvf Nordic-Openbox-master.tar.xz -C /usr/share/themes
+sudo tar -xvf Nordic-bluish-accent-standard-buttons.tar.xz -C /usr/share/themes
+sudo tar -xvf Nordic-darker-standard-buttons.tar.xz -C /usr/share/themes
+sudo tar -xvf Nordic-standard-buttons.tar.xz -C /usr/share/themes

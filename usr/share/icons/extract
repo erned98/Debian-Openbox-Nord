@@ -1,1 +1,4 @@
+#! /bin/bash
 
+sudo tar -xvf Zafiro-Icons-Dark.tar.xz -C /usr/share/icons
+sudo tar -xvf Zafiro-Icons-Light.tar.xz -C /usr/share/icons

@@ -1,1 +1,3 @@
+#! /bin/bash
 
+sudo cp jetbrains /usr/share/fonts

@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Default packages are for the configuration and corresponding .config folders
 # Install packages after installing base Debian with no GUI
 
@@ -58,3 +60,6 @@ sudo systemctl enable lightdm
 
 # Additional packages (if you fork this project, you might want to customise this part on your own)
 sudo apt install libreoffice libreoffice-gtk3 gimp parole deadbeef galculator viewnior engrampa atril
+
+sudo apt autoremove --purge
+echo -e "Base installation ready. For config files, run the rice script."

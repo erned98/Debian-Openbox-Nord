@@ -1,0 +1,37 @@
+#! /bin/bash
+
+# install some packages
+sudo apt install libreoffice-style-breeze breeze-cursor-theme
+
+# copy icons
+cd usr/share/icons
+chmod +x extract
+./extract
+cd ..
+
+# copy themes
+cd themes
+chmod +x extract
+./extract
+cd ..
+
+# copy wallpapers
+cd backgrounds
+chmod +x extract
+./extract
+cd ..
+
+# copy fonts
+cd fonts/truetype/jetbrains
+chmod +x extract
+./extract
+cd ../../../../..
+
+# copy .bashrc
+cp .bashrc ~
+
+# copy config files
+cp -R .config ~
+cp -R .local ~
+
+echo -e "\nYou're ready to reboot! Enjoy your system."

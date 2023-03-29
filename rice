@@ -27,8 +27,9 @@ chmod +x extract
 ./extract
 cd ../../../../..
 
-# copy .bashrc
+# copy .bashrc and .conkyrc
 cp .bashrc ~
+cp .conkyrc ~
 
 # copy config files
 cp -R .config ~
